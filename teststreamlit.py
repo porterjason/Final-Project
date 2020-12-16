@@ -29,3 +29,5 @@ option = st.selectbox(
 submit = st.button('submit new letters')
 if submit:
     "Hey there"
+link = '[GitHub](http://github.com)'
+st.markdown(link, unsafe_allow_html=True)
