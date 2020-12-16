@@ -25,7 +25,7 @@ option = st.selectbox(
      df['first column'])
 
 'You selected: ', option
-link = '[GitHub](http://github.com)'
+link = '[MyApp](https://share.streamlit.io/porterjason/final-project/main/final_code.py)'
 submit = st.button('submit new letters')
 if submit:
     "Hey there"
