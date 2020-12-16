@@ -25,9 +25,8 @@ option = st.selectbox(
      df['first column'])
 
 'You selected: ', option
-
+link = '[GitHub](http://github.com)'
 submit = st.button('submit new letters')
 if submit:
     "Hey there"
-link = '[GitHub](http://github.com)'
-st.markdown(link, unsafe_allow_html=True)
+    st.markdown(link, unsafe_allow_html=True)
