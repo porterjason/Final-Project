@@ -22,10 +22,6 @@ listing_types = ['Entire home/apt', 'Private room', 'Shared room']
 df = pd.DataFrame(data=listings_f, columns=columns_list)
 df.set_index('id', inplace=True)
 
-price = 100
-result = df[df['minimum_nights'] >= 3]
-# print(result['minimum_nights'].min())
-
 
 def p1_filters(data):
     df_result = data
