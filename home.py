@@ -1,16 +1,13 @@
 """
-Name:       Your Name
+Name:       Jason Porter
 CS230:      Section 05
 Data:       AirBnB
-URL:        Link to your web application online (see extra credit)
+URL:        https://share.streamlit.io/porterjason/final-project/main/home.py
 
-Description: This project creates
-
-This program ... (a few sentences about your program and the queries and charts)
+Description: This program acts as the home page to my other two applications,
+            which are top_listings.py and listings_map.py
 
 """
-# interactive data-driven web-based Python application that shows your mastery of
-# many coding concepts as you interact with data real world data
 
 import streamlit as st
 
