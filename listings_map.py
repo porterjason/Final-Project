@@ -15,3 +15,10 @@ This program ... (a few sentences about your program and the queries and charts)
 import streamlit as st
 
 st.write("Hello world")
+
+
+menu = '[Return to Home](https://share.streamlit.io/porterjason/final-project/main/home.py)'
+program1 = '[View Our Cambridge Listings](https://share.streamlit.io/porterjason/final-project/main/top_listings.py)'
+
+st.sidebar.markdown(menu, unsafe_allow_html=True)
+st.sidebar.markdown(program1, unsafe_allow_html=True)
