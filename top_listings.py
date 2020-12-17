@@ -71,8 +71,8 @@ max_price = st.sidebar.slider('Maximum Price ($):', min_slider, max_slider)
 
 # Links back to Main Page and Other Program
 
-menu = '[Return to Menu](https://share.streamlit.io/porterjason/final-project/main/final_code.py)'
-program2 = '[View Our Cambridge Listings](https://share.streamlit.io/porterjason/final-project/main/final_code.py)'
+menu = '[Return to Home](https://share.streamlit.io/porterjason/final-project/main/home.py)'
+program2 = '[View Our Cambridge Listings](https://share.streamlit.io/porterjason/final-project/main/listings_map.py)'
 
 st.sidebar.markdown(menu, unsafe_allow_html=True)
 st.sidebar.markdown(program2, unsafe_allow_html=True)
