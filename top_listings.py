@@ -82,7 +82,7 @@ df_top10[['Rank', 'name', 'host_name','neighbourhood', 'price','last_review']]
 
 # Select Listing
 names = {}
-for index, row in df_top10.head().iterrows():
+for index, row in df_top10.iterrows():
      names[row['name']] = index
 pick = st.selectbox("Select a Listing:", [*names])
 id = str(names[pick])
