@@ -24,5 +24,5 @@ st.title("Welcome to AirBnB Cambridge")
 st.subheader("How can we help you today?")
 
 # Links to programs
-st.sidebar.markdown(program1, unsafe_allow_html=True)
-st.sidebar.markdown(program2, unsafe_allow_html=True)
+st.markdown(program1, unsafe_allow_html=True)
+st.markdown(program2, unsafe_allow_html=True)
