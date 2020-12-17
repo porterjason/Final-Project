@@ -15,7 +15,6 @@ This program ... (a few sentences about your program and the queries and charts)
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib as plt
 import statistics
 
 listings_f = pd.read_csv("listings.csv")
